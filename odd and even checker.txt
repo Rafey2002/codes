@@ -1,0 +1,21 @@
+# Query: 
+# ContextLines: 1
+
+#include<iostream>
+using namespace std;
+int main()
+{
+cout<<"EVEN/ODD CHECKER"<<endl;
+int x;
+cout<<"Enter the number:"<<endl;
+cin>>x;
+if(x%2=0)
+{ 
+cout<<"The number is even"<<x<<endl;
+}
+else
+{
+cout<<"The number is odd"<<x<<endl;
+}
+return 0;
+}
